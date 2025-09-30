@@ -6,43 +6,44 @@
       <img src="assets/images/sncf/demo_screenshot.png" alt="SNCF app demo" />
     </div>
 
-    <h2 class="title">SNCF Project: Shortest Path Finder</h2>
+    <h2 class="title">SNCF Project: Cheapest Path Finder</h2>
     <div class="tags">
       <span class="tag">API</span>
       <span class="tag">Optimization</span>
       <span class="tag">Graph Search</span>
       <span class="tag">Python</span>
+      <span class="tag">C++</span>
       <span class="tag">Simulation</span>
     </div>
     <h2 class="section-title">Overview</h2>
     <p>
-      This project involved developing an intelligent algorithm to compute the shortest path between two railway stations on a map. 
+      This project involved developing an intelligent algorithm to compute the cheapest path between two railway stations on a map. 
       The project was completed using SNCF Open Data and involved parsing station and route data to create a navigable graph. 
-      The algorithm was implemented in Python, utilizing Dijkstra’s algorithms with early termination for efficient pathfinding.
+      The algorithm was implemented in C++, utilizing Dijkstra’s algorithms with early termination for efficient pathfinding.
     </p>
 
     <h2 class="section-title">Key Features</h2>
     <ul>
       <li>Graph of stations and routes parsed from map data</li>
-      <li>Dijkstra’s algorithms with early termination for path planning</li>
+      <li>Dijkstra’s algorithms with early termination for path planning (in C++ for efficiency and memory management)</li>
       <li>FastAPI API and Streamlit frontend and frontend separation</li>
     </ul>
 
     <h2 class="section-title">Technologies Used</h2>
     <ul>
-      <li><strong>Python:</strong> Core logic and algorithm design</li>
-      <li><strong>Steamlit:</strong> For frontend</li>
-      <li><strong>FastAPI:</strong> For backend</li>
+      <li><strong>C++:</strong> Core logic and algorithm design, API</li>
+      <li><strong>HTML/CSS/JS:</strong> For frontend</li>
+      <li><strong>Python:</strong> API for some high level functions</li>
     </ul>
 
     <h2 class="section-title">Outcome</h2>
     <p>
-      The resulting app is capable of dynamically computing optimal paths through a network of stations, with potential applications in ticket sales and railway traffic optimization.
+      The resulting app is capable of dynamically computing optimal paths (in terms of price) through a network of stations, with potential applications in ticket sales.
     </p>
 
     <h2 class="section-title">Next Steps</h2>
     <p>
-      Future improvements include dynamic ticketing data integration, even better optimization, and making the system publically available.
+      Future improvements include designing new algorithms to further improve the computation complexity and memory complexity.
     </p>
   </div>
 </div>
